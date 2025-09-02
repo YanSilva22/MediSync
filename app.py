@@ -29,7 +29,7 @@ class Application(object):
         self.app.protocol("WM_DELETE_WINDOW", self.close)
         self.app.mainloop()
 
-    # função para passar o login e senha do Bd
+    # função para passar o login e senha do Bn3-
     def logSQL(self):
         self.loginSql = tk.Toplevel(self.app)
         self.loginSql.grab_set()  # Impede interação com a janela principal
